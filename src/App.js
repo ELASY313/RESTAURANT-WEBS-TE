@@ -1,25 +1,45 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./components/Navbar";
+import {BrowserRouter as Router ,Route } from 'react-router-dom';
+import Anasayfa from "./pages/Anasayfa";
+import Menü from "./pages/Menü";
+import Hakkımızda from "./pages/Hakkımızda";
+import İletişim from "./pages/İletişim";
+import Map from "./components/Map";
+import Data from "./components/Data"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+
+  function App() {
+    return (
+  
+        <><Router>
+        <Navbar />
+
+        {/*navbar linkleri çalıştırmak için router kullandım*/}
+      
+        <Route exact path="/" component ={Anasayfa}/>
+        <Route exact path="/Menü" component ={Menü}/> 
+         <Route exact path="/Hakkımızda" component ={Hakkımızda}/>
+         <Route exact path="/İletişim" component ={İletişim}/>
+
+      
+      </Router>
+      <Anasayfa />
+      <Data />
+      <Menü />
+      <Hakkımızda />
+      <İletişim />
+      <Map />
+      </>
+       
+      
+       
+  
+
+
+
+    );
+  }
 
 export default App;
