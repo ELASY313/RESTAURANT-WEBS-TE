@@ -7,6 +7,7 @@ import Hakkımızda from "./pages/Hakkımızda";
 import İletişim from "./pages/İletişim";
 import Map from "./components/Map";
 import Data from "./components/Data"
+import Slider from "./pages/Slider";
 
 
 
@@ -31,6 +32,7 @@ import Data from "./components/Data"
       <Hakkımızda />
       <İletişim />
       <Map />
+      <Slider/>
       </>
        
       
