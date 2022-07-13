@@ -11,7 +11,7 @@ import foto6 from './../photo/6.png';
 const Slider = () => {
   return (
  
-        /*Marquee tag kullanarak slider yaptım farklı div`ler içerisine fotografları yerleştirdim */
+        /*Marquee tag kullanarak slider yaptım farklı div`ler içerisine fotografları yerleştirip slider hızını ve yönü direction ve speed tagları ile belirledim */
       <div>
         <Marquee direction="right" speed={100} delay={5}>
 
