@@ -5,6 +5,11 @@ import foto3 from './../photo/3.png';
 import foto4 from './../photo/4.png';
 import foto5 from './../photo/5.png';
 import foto6 from './../photo/6.png';
+import foto9 from './../photo/9.jpg';
+import foto10 from './../photo/10jp';
+import foto11 from './../photo/11.jpg';
+import foto12 from './../photo/12.jpg';
+import foto13 from './../photo/13.jpg';
 
 {/* dinamik şekilde menü bilgileri kaydettim */}
 
@@ -50,6 +55,47 @@ price :'40 TL',
                 title :'Üç Lezzetli Erişte Çorbası',
                 price :'40 TL',
                 }
+    
+    
+             {
+                img :foto9,
+                title :'Humburger',
+                price :'62 Tl',
+             } , 
+
+
+             {
+
+                img :foto10,
+                title :'Krabiberli Dana',
+                price :'115 TL',
+
+             },
+
+
+             {
+
+                img :foto11,
+                title :'Döner',
+                price :'98 TL'
+             },
+
+
+
+             {
+
+                img :foto12,
+                title :'Shangay Tavuk',
+                price :'79 TL',
+             },
+
+
+             {
+                img :foto13,
+                title :'General Tavuk',
+                price :'80 TL',
+             },
+
 
                
 
