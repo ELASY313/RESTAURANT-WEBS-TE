@@ -8,13 +8,16 @@ import İletişim from "./pages/İletişim";
 import Map from "./components/Map";
 import Data from "./components/Data"
 import Slider from "./pages/Slider";
+import MenüTarihçe from "./components/MenüTarihçe";
+
 
 
 
   function App() {
     return (
   
-        <><Router>
+        <>
+      <Router>
         <Navbar />
 
         {/*navbar linkleri çalıştırmak için router kullandım*/}
@@ -28,11 +31,13 @@ import Slider from "./pages/Slider";
       </Router>
       <Anasayfa />
       <Data />
+      <MenüTarihçesi/>
       <Menü />
+      <Slider/>
       <Hakkımızda />
       <İletişim />
       <Map />
-      <Slider/>
+    
       </>
        
       
